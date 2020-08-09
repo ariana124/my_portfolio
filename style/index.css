@@ -89,24 +89,24 @@
   background-image: linear-gradient(138deg, white 20%, #22b2da 71%);
   position: relative;
   top: 3rem;
-  left: 13%;
+  left: 12%;
 }
 
 .about-content {
+  display: inline-block;
   position: relative;
+  bottom: 45%;
+  left: 240px;
+  height: 67%;
+  width: 45%;
 }
 
 .about-heading {
   margin: 1.5rem 0;
-  position: absolute;
-  left: 43%;
-  bottom: 7rem;
 }
 
 .about-bio {
   position: absolute;
-  left: 43%;
-  bottom: 0;
 }
 
 .feature-box {
