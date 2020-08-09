@@ -152,8 +152,8 @@
 }
 
 .contact-btn {
-  background-color: #3da4ff;
-  border: 2px solid #3da4ff;
+  background-color: #22b2da;
+  border: 2px solid #22b2da;
   border-radius: 4px;
   color: #fff;
   font-weight: 700;
@@ -177,7 +177,7 @@
 }
 
 a {
-  color: #ff750d;
+  color: #292929;
 }
 
 a:hover {
@@ -193,7 +193,7 @@ a:hover {
 }
 
 .fas {
-  color: #3da4ff;
+  color: #22b2da;
 }
 
 .fas:hover {
@@ -206,7 +206,7 @@ a:hover {
 }
 
 .title {
-  color: #1029ff;
+  color: #22b2da;
 }
 
 #line {
@@ -215,9 +215,9 @@ a:hover {
 
 /**********************************************/
 .feature-box {
-  border: 2px solid #3da4ff;
-  -webkit-box-shadow: -4px -4px #1029ff, 4px 4px #ff750d;
-          box-shadow: -4px -4px #1029ff, 4px 4px #ff750d;
+  border: 2px solid #22b2da;
+  -webkit-box-shadow: -4px -4px #22b2da, 4px 4px #ff750d;
+          box-shadow: -4px -4px #22b2da, 4px 4px #ff750d;
   padding: 0 15px 15px;
 }
 

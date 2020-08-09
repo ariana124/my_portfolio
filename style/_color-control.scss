@@ -1,7 +1,7 @@
 @import './variables';
 
 a {
-    color: $orange;
+    color: $darkBlack;
 
     &:hover {
         color: $lightBlue;
@@ -32,7 +32,7 @@ a {
 }
 
 .title {
-    color: $darkBlue;
+    color: $blue;
 }
 
 #line {
@@ -43,6 +43,6 @@ a {
 
 .feature-box {
     border: 2px solid $blue;
-    box-shadow: -4px -4px $darkBlue, 4px 4px $orange;
+    box-shadow: -4px -4px $blue, 4px 4px $orange;
     padding: 0 15px 15px;
 }
