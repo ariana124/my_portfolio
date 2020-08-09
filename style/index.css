@@ -222,6 +222,7 @@ a:hover {
 }
 
 .feature-box {
+  border: 2px solid #f0d43a;
   padding: 0 15px 15px;
 }
 
