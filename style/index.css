@@ -68,7 +68,7 @@
 
 .about-photo {
   height: 330px;
-  width: 280px;
+  width: 265px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   position: absolute;
@@ -85,7 +85,7 @@
 .photo-bg {
   display: inline-block;
   height: 330px;
-  width: 280px;
+  width: 265px;
   background-image: linear-gradient(312deg, #1029ff 0%, #4558ff 17%, #3da4ff 31%, #c5edff 47%, #e2faff 51%, white 57%, white 71%);
   position: relative;
   top: 3rem;
@@ -162,8 +162,8 @@
 }
 
 .contact-btn:hover {
-  background-color: #c5edff;
-  border: 1px solid #c5edff;
+  background-color: #3b4a6b;
+  border: 1px solid #3b4a6b;
   border-radius: 4px;
   color: #333;
   font-weight: 700;
@@ -181,15 +181,15 @@ a {
 }
 
 a:hover {
-  color: #c5edff;
+  color: #22b2da;
 }
 
 .fab {
-  color: #ff750d;
+  color: #292929;
 }
 
 .fab:hover {
-  color: #c5edff;
+  color: #22b2da;
 }
 
 .fas {
@@ -197,12 +197,13 @@ a:hover {
 }
 
 .fas:hover {
-  color: #c5edff;
+  color: #22b2da;
 }
 
 /*********** Landing page section. *************/
 .name {
   color: #292929;
+  text-shadow: 2px 2px #22b2da;
 }
 
 .title {
@@ -210,14 +211,11 @@ a:hover {
 }
 
 #line {
-  background-color: #ff750d;
+  background-color: #292929;
 }
 
 /**********************************************/
 .feature-box {
-  border: 2px solid #22b2da;
-  -webkit-box-shadow: -4px -4px #22b2da, 4px 4px #ff750d;
-          box-shadow: -4px -4px #22b2da, 4px 4px #ff750d;
   padding: 0 15px 15px;
 }
 

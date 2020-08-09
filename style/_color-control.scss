@@ -4,16 +4,16 @@ a {
     color: $darkBlack;
 
     &:hover {
-        color: $lightBlue;
+        color: $blue;
     }
 }
 
 
 .fab { // These are the social media icons.
-    color: $orange;
+    color: $darkBlack;
 
     &:hover {
-        color: $lightBlue;
+        color: $blue;
     }
 }
 
@@ -21,7 +21,7 @@ a {
     color: $blue;
 
     &:hover {
-        color: $lightBlue;
+        color: $blue;
     }
 }
 
@@ -29,6 +29,7 @@ a {
 
 .name {
     color: $darkBlack;
+    text-shadow: 2px 2px $blue;
 }
 
 .title {
@@ -36,13 +37,13 @@ a {
 }
 
 #line {
-    background-color: $orange;
+    background-color: $darkBlack;
 }
 
 /**********************************************/
 
 .feature-box {
-    border: 2px solid $blue;
-    box-shadow: -4px -4px $blue, 4px 4px $orange;
+   // border: 2px solid $darkBlack;
+   // box-shadow: -4px -4px $blue, 4px 4px $orange;
     padding: 0 15px 15px;
 }
