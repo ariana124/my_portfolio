@@ -222,7 +222,9 @@ a:hover {
 }
 
 .feature-box {
-  border: 2px solid #f0d43a;
+  border: 2px solid #f23557;
+  -webkit-box-shadow: -2px -2px #22b2da, 2px 2px #f0d43a;
+          box-shadow: -2px -2px #22b2da, 2px 2px #f0d43a;
   padding: 0 15px 15px;
 }
 
