@@ -185,8 +185,8 @@
   border: 3px dotted #22b2da;
   border-radius: 50%;
   border-style: double;
-  height: 197px;
-  width: 197px;
+  height: 217px;
+  width: 217px;
   position: relative;
   z-index: 2;
   left: 100%;
@@ -206,8 +206,8 @@
 .circle4 {
   background-image: linear-gradient(61deg, #22b2da 14%, #afc96c 48%, #f0d43a 69%);
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   position: relative;
   top: -300%;
   right: 45%;
