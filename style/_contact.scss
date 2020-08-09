@@ -39,3 +39,40 @@
     margin: 0 auto;
     padding: 3rem;
 }
+
+.circles-container {
+	height: 197px;
+    position: relative;
+}
+
+.circle2 {
+    border: 3px dotted $blue;
+    border-radius: 50%;
+    border-style: double;
+    height: 197px;
+    width: 197px;
+	position: relative;
+    z-index: 2;
+    left: 100%;
+}
+
+.circle3 {
+    border: 3px dotted $red;
+    border-radius: 50%;
+    border-style: double;
+    height: 137px;
+    width: 137px;
+	position: absolute;
+	left: 120%;
+	top: -60px;
+}
+
+.circle4 {
+    background-image: $circle4Gradient;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -300%;
+    right: 45%;
+}
