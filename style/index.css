@@ -99,13 +99,13 @@
 .about-heading {
   margin: 1.5rem 0;
   position: absolute;
-  left: 45%;
+  left: 43%;
   bottom: 7rem;
 }
 
 .about-bio {
   position: absolute;
-  left: 45%;
+  left: 43%;
   bottom: 0;
 }
 
@@ -133,7 +133,8 @@
 }
 
 .project-name {
-  margin: 10px 0;
+  display: inline-block;
+  margin: 10px 10px 10px 0;
 }
 
 .contact-content {
