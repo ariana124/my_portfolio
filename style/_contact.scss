@@ -1,0 +1,42 @@
+@import './variables';
+
+.contact-content {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.contact-heading {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.contact-brief {
+    padding: 1rem 0;
+}
+
+.contact-btn {
+    background-color: $blue;
+    border: 2px solid $blue;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 14px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $lightBlue;
+        border: 1px solid $lightBlue;
+        border-radius: 4px;
+        color: $black;
+        font-weight: 700;
+        padding: 12px 14px;
+        text-decoration: none;
+    }
+}
+
+.contact-btn-div {
+    margin: 0 auto;
+    padding: 3rem;
+}

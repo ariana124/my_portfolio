@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+.circle {
+  background: linear-gradient(130deg, #1029ff 0%, #4558ff 17%, #3da4ff 31%, #c5edff 47%, #e2faff 51%, white 57%, white 71%);
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  top: 40%;
+}
+
+.name {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5.3rem;
+  position: absolute;
+  text-align: center;
+}
+
+.first {
+  top: 38%;
+  left: 47%;
+}
+
+.last {
+  top: 55%;
+  left: 58%;
+}
+
+.title {
+  font-family: 'Poppins';
+  font-size: 1.4rem;
+  position: absolute;
+  top: 77%;
+  left: 55%;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  position: fixed;
+  bottom: 0;
+  left: 2%;
+}
+
+.medium {
+  padding-bottom: 1rem;
+}
+
+#line {
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px 46%;
+}
+
+.sm-icon {
+  margin: 10px;
+}
+
+.about-photo {
+  height: 330px;
+  width: 280px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  position: absolute;
+  right: 10%;
+  bottom: 8%;
+  z-index: 2;
+}
+
+.about-photo:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.photo-bg {
+  display: inline-block;
+  height: 330px;
+  width: 280px;
+  background-image: linear-gradient(312deg, #1029ff 0%, #4558ff 17%, #3da4ff 31%, #c5edff 47%, #e2faff 51%, white 57%, white 71%);
+  position: relative;
+  top: 3rem;
+  left: 13%;
+}
+
+.about-content {
+  position: relative;
+}
+
+.about-heading {
+  margin: 1.5rem 0;
+  position: absolute;
+  left: 45%;
+  bottom: 7rem;
+}
+
+.about-bio {
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+}
+
+.feature-box {
+  display: inline-block;
+  margin: 0 1rem;
+  position: relative;
+  width: 30%;
+}
+
+.project-2 {
+  top: 150px;
+}
+
+.project-3 {
+  top: 300px;
+}
+
+.projects-header {
+  margin: 1rem 0;
+}
+
+.project-heading {
+  margin: 1rem 0;
+}
+
+.project-name {
+  margin: 10px 0;
+}
+
+.contact-content {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.contact-brief {
+  padding: 1rem 0;
+}
+
+.contact-btn {
+  background-color: #3da4ff;
+  border: 2px solid #3da4ff;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #c5edff;
+  border: 1px solid #c5edff;
+  border-radius: 4px;
+  color: #333;
+  font-weight: 700;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+.contact-btn-div {
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+a {
+  color: #ff750d;
+}
+
+a:hover {
+  color: #c5edff;
+}
+
+.fab {
+  color: #ff750d;
+}
+
+.fab:hover {
+  color: #c5edff;
+}
+
+.fas {
+  color: #3da4ff;
+}
+
+.fas:hover {
+  color: #c5edff;
+}
+
+/*********** Landing page section. *************/
+.name {
+  color: #292929;
+}
+
+.title {
+  color: #1029ff;
+}
+
+#line {
+  background-color: #ff750d;
+}
+
+/**********************************************/
+.feature-box {
+  border: 2px solid #3da4ff;
+  -webkit-box-shadow: -4px -4px #1029ff, 4px 4px #ff750d;
+          box-shadow: -4px -4px #1029ff, 4px 4px #ff750d;
+  padding: 0 15px 15px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #333;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+/**************** Page section sizing *******************/
+#landing .container {
+  margin: 2rem 4rem;
+  padding: 5rem 0;
+}
+
+#about .container {
+  height: 560px;
+  margin: 5rem 4rem;
+  padding: 5rem 3rem;
+}
+
+#projects .container {
+  height: 760px;
+  margin: 5rem 4rem;
+  padding: 5rem 3rem;
+}
+
+#contact .container {
+  height: 550px;
+  margin: 7rem 4rem;
+  padding: 5rem 3rem;
+}
+
+/*********************************************************/
+/**************** Navigation Bar Styling *****************/
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 1rem 1.5rem;
+}
+
+.navbar span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.logo {
+  padding: 2px 1.5rem 0;
+}
+
+.nav-links {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*********************************************************/
+/*# sourceMappingURL=index.css.map */

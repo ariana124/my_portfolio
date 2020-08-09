@@ -1,0 +1,40 @@
+.about-photo {
+    height: 330px;
+    width: 280px;
+    filter: grayscale(100%);
+    position: absolute;
+    right: 10%;
+    bottom: 8%;
+    z-index: 2;
+
+    &:hover {
+        filter: none;
+    }
+}
+
+.photo-bg {
+    display: inline-block;
+    height: 330px;
+    width: 280px;
+    background-image: $photoGradient;
+    position: relative;
+    top: 3rem;
+    left: 13%;
+}
+
+.about-content {
+    position: relative;
+}
+
+.about-heading {
+    margin: 1.5rem 0;
+    position: absolute;
+    left: 45%;
+    bottom: 7rem;
+}
+
+.about-bio {
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}

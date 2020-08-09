@@ -1,0 +1,48 @@
+@import './variables';
+
+a {
+    color: $orange;
+
+    &:hover {
+        color: $lightBlue;
+    }
+}
+
+
+.fab { // These are the social media icons.
+    color: $orange;
+
+    &:hover {
+        color: $lightBlue;
+    }
+}
+
+.fas { // This is the file icon.
+    color: $blue;
+
+    &:hover {
+        color: $lightBlue;
+    }
+}
+
+/*********** Landing page section. *************/
+
+.name {
+    color: $darkBlack;
+}
+
+.title {
+    color: $darkBlue;
+}
+
+#line {
+    background-color: $orange;
+}
+
+/**********************************************/
+
+.feature-box {
+    border: 2px solid $blue;
+    box-shadow: -4px -4px $darkBlue, 4px 4px $orange;
+    padding: 0 15px 15px;
+}
