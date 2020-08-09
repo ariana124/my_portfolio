@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 .circle {
-  background: linear-gradient(130deg, #1029ff 0%, #4558ff 17%, #3da4ff 31%, #c5edff 47%, #e2faff 51%, white 57%, white 71%);
+  background: linear-gradient(135deg, #f23557 16%, #f18948 33%, #f0d43a 45%, #f9efb6 54%, white 65%);
   border-radius: 50%;
   height: 500px;
   width: 500px;
