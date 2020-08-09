@@ -162,8 +162,8 @@
 }
 
 .contact-btn:hover {
-  background-color: #22b2da;
-  border: 1px solid #22b2da;
+  background-color: #afc96c;
+  border: 1px solid #afc96c;
   border-radius: 4px;
   color: #fff;
   font-weight: 700;
@@ -259,10 +259,18 @@ a:hover {
   color: #3b4a6b;
 }
 
-.feature-box {
-  border: 2px solid #f23557;
-  -webkit-box-shadow: -2px -2px #22b2da, 2px 2px #f0d43a;
-          box-shadow: -2px -2px #22b2da, 2px 2px #f0d43a;
+.project-1 {
+  border: 2px solid #22b2da;
+  padding: 0 15px 15px;
+}
+
+.project-2 {
+  border: 2px solid #afc96c;
+  padding: 0 15px 15px;
+}
+
+.project-3 {
+  border: 2px solid #f0d43a;
   padding: 0 15px 15px;
 }
 

@@ -49,8 +49,17 @@ a {
     color: $darkBlue;
 }
 
-.feature-box {
-    border: 2px solid $red;
-    box-shadow: -2px -2px $blue, 2px 2px $yellow;
+.project-1 {
+    border: 2px solid $blue;
+    padding: 0 15px 15px;
+}
+
+.project-2 {
+    border: 2px solid $green;
+    padding: 0 15px 15px;
+}
+
+.project-3 {
+    border: 2px solid $yellow;
     padding: 0 15px 15px;
 }
