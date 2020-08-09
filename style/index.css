@@ -152,20 +152,19 @@
 }
 
 .contact-btn {
-  background-color: #22b2da;
-  border: 2px solid #22b2da;
+  border: 2px solid #292929;
   border-radius: 4px;
-  color: #fff;
+  color: #292929;
   font-weight: 700;
   padding: 12px 14px;
   text-decoration: none;
 }
 
 .contact-btn:hover {
-  background-color: #3b4a6b;
-  border: 1px solid #3b4a6b;
+  background-color: #22b2da;
+  border: 1px solid #22b2da;
   border-radius: 4px;
-  color: #333;
+  color: #fff;
   font-weight: 700;
   padding: 12px 14px;
   text-decoration: none;
@@ -193,7 +192,7 @@ a:hover {
 }
 
 .fas {
-  color: #22b2da;
+  color: #f23557;
 }
 
 .fas:hover {
@@ -215,6 +214,13 @@ a:hover {
 }
 
 /**********************************************/
+.about-bio,
+.project-description,
+.project-name,
+.contact-brief {
+  color: #3b4a6b;
+}
+
 .feature-box {
   padding: 0 15px 15px;
 }
