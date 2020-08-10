@@ -137,6 +137,10 @@
   margin: 10px 10px 10px 0;
 }
 
+.project-description {
+  font-size: 15px;
+}
+
 .contact-content {
   margin: 0 auto;
   text-align: center;
