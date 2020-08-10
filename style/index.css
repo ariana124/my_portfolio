@@ -186,7 +186,7 @@
 }
 
 .circle2 {
-  border: 3px dotted #22b2da;
+  border: 3px solid #22b2da;
   border-radius: 50%;
   border-style: double;
   height: 217px;
@@ -197,7 +197,7 @@
 }
 
 .circle3 {
-  border: 3px dotted #f23557;
+  border: 3px solid #f23557;
   border-radius: 50%;
   border-style: double;
   height: 137px;
@@ -205,6 +205,60 @@
   position: absolute;
   left: 120%;
   top: -60px;
+  -webkit-animation-name: rainbow;
+          animation-name: rainbow;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    border-color: #f23557;
+  }
+  15% {
+    border-color: #F18049;
+  }
+  30% {
+    border-color: #f0d43a;
+  }
+  45% {
+    border-color: #afc96c;
+  }
+  60% {
+    border-color: #22b2da;
+  }
+  75% {
+    border-color: #7940ff;
+  }
+  90% {
+    border-color: #ec31ae;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    border-color: #f23557;
+  }
+  15% {
+    border-color: #F18049;
+  }
+  30% {
+    border-color: #f0d43a;
+  }
+  45% {
+    border-color: #afc96c;
+  }
+  60% {
+    border-color: #22b2da;
+  }
+  75% {
+    border-color: #7940ff;
+  }
+  90% {
+    border-color: #ec31ae;
+  }
 }
 
 .circle4 {
