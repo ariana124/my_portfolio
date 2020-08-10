@@ -19,6 +19,12 @@
     padding: 0;
 }
 
+body {
+    background: url("../images/new-bg.jpg");
+    background-size: contain;
+    position: relative;
+    z-index: -3;
+}
 
 /**************** Page section sizing *******************/
 
