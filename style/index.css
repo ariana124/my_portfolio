@@ -194,6 +194,60 @@
   position: relative;
   z-index: 2;
   left: 100%;
+  -webkit-animation-name: rainbow;
+          animation-name: rainbow;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    border-color: #afc96c;
+  }
+  15% {
+    border-color: #22b2da;
+  }
+  30% {
+    border-color: #7940ff;
+  }
+  45% {
+    border-color: #ec31ae;
+  }
+  60% {
+    border-color: #f23557;
+  }
+  75% {
+    border-color: #F18049;
+  }
+  90% {
+    border-color: #f0d43a;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    border-color: #afc96c;
+  }
+  15% {
+    border-color: #22b2da;
+  }
+  30% {
+    border-color: #7940ff;
+  }
+  45% {
+    border-color: #ec31ae;
+  }
+  60% {
+    border-color: #f23557;
+  }
+  75% {
+    border-color: #F18049;
+  }
+  90% {
+    border-color: #f0d43a;
+  }
 }
 
 .circle3 {
@@ -205,15 +259,15 @@
   position: absolute;
   left: 120%;
   top: -60px;
-  -webkit-animation-name: rainbow;
-          animation-name: rainbow;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-name: rainbow2;
+          animation-name: rainbow2;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes rainbow {
+@-webkit-keyframes rainbow2 {
   0% {
     border-color: #f23557;
   }
@@ -237,7 +291,7 @@
   }
 }
 
-@keyframes rainbow {
+@keyframes rainbow2 {
   0% {
     border-color: #f23557;
   }
