@@ -177,7 +177,7 @@
 }
 
 .circles-container {
-  height: 197px;
+  height: 217px;
   position: relative;
 }
 
@@ -209,7 +209,7 @@
   height: 90px;
   width: 90px;
   position: relative;
-  top: -300%;
+  top: -265%;
   right: 47%;
 }
 
@@ -310,7 +310,7 @@ body {
 }
 
 #contact .container {
-  height: 586px;
+  height: 615px;
   margin: 7rem 4rem;
   padding: 4rem 3rem;
 }
