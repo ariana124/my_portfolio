@@ -87,17 +87,17 @@
   height: 330px;
   width: 265px;
   background-image: linear-gradient(138deg, white 20%, #22b2da 71%);
-  position: relative;
-  top: 3rem;
-  left: 12%;
+  position: absolute;
+  top: 8rem;
+  left: 15%;
 }
 
 .about-content {
   display: inline-block;
-  position: relative;
-  bottom: 45%;
-  left: 240px;
-  height: 67%;
+  position: absolute;
+  left: 44%;
+  top: 8rem;
+  height: 350px;
   width: 45%;
 }
 
@@ -298,9 +298,10 @@ body {
 }
 
 #about .container {
-  height: 560px;
+  height: 650px;
   margin: 5rem 4rem;
   padding: 5rem 3rem;
+  position: relative;
 }
 
 #projects .container {
@@ -310,8 +311,8 @@ body {
 }
 
 #contact .container {
-  height: 615px;
-  margin: 7rem 4rem;
+  height: 685px;
+  margin: 5rem 4rem;
   padding: 4rem 3rem;
 }
 
