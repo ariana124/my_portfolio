@@ -67,7 +67,7 @@
 }
 
 .about-photo {
-  height: 330px;
+  height: 350px;
   width: 265px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
@@ -84,7 +84,7 @@
 
 .photo-bg {
   display: inline-block;
-  height: 330px;
+  height: 350px;
   width: 265px;
   background-image: linear-gradient(138deg, white 20%, #22b2da 71%);
   position: absolute;
