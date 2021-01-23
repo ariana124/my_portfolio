@@ -20,13 +20,13 @@
 }
 
 body {
-    background: url("../images/new-bg.jpg");
-    background-size: contain;
+    background: url("../images/diagonales.png");
+    background-repeat: repeat;
     position: relative;
     z-index: -3;
 }
 
-/**************** Page section sizing *******************/
+/**************** Page Section Sizing *******************/
 
 #landing .container {
     margin: 2rem 4rem;
@@ -52,7 +52,7 @@ body {
     padding: 4rem 3rem;
 }
 
-/*********************************************************/
+/************************ End ****************************/
 
 
 /**************** Navigation Bar Styling *****************/
@@ -80,4 +80,4 @@ body {
     text-transform: uppercase;
 }
 
-/*********************************************************/
+/************************ End ****************************/
